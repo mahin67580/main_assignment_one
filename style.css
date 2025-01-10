@@ -316,12 +316,12 @@ img {
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
-     
+
     margin: 0 auto;
     margin-top: 32px;
     background-image: url("assets/quote-bg.png");
     background-repeat: no-repeat;
-    background-position: 2% 10%;
+    background-position: 2% 12%;
     padding: 48px 24px 48px 24px;
 
 
@@ -353,3 +353,96 @@ img {
     font-weight: 400;
     line-height: 24px;
 }
+
+.recent_news {
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.box_one {
+    width: 1280px;
+    height: 402px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.box_onetxt {
+    
+    margin-right: 20px;
+}
+
+.box_onetxt>p,
+img {
+
+    background: rgb(255, 255, 255);
+}
+
+.pr1 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    height: 50px;
+}
+
+.pr2 {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.pr3 {
+
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    height: 90px;
+
+}
+
+.pr_btn {
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    background: rgb(0, 106, 80);
+    border: none;
+}
+
+.box_one_img {
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+    margin-left: 20px;
+    background-image: url("assets/satelite.png");
+}
+ #maxxx
+ {
+    flex-direction: row-reverse;
+ }
+ #sideplz
+ {
+    margin-left: 40px;
+ }
+ #sidepl2
+ {
+    margin-right: 35px;
+ }
