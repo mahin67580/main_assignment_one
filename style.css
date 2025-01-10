@@ -59,15 +59,16 @@ nav {
     background: rgb(198, 228, 214);
     margin-top: 50px;
 }
-.banner_txt
-{
+
+.banner_txt {
     background: rgb(198, 228, 214);
-    margin-left:50px;
+    margin-left: 50px;
 
 
 }
+
 .banner_txt_h4 {
-    
+
     color: rgba(14, 14, 14, 0.5);
     font-family: Fira Sans;
     font-size: 24px;
@@ -104,44 +105,100 @@ nav {
     border: none;
     transition: all 0.5s;
     cursor: pointer;
-   
+
 }
+
 .button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
     background: rgb(0, 106, 80);
-  }
-  
-  .button span:after {
+}
+
+.button span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.5s;
-  }
-  
-  .button:hover span {
-    padding-right: 25px;
-  }
-  
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-.banner_img
-{
-    display: flex;
-    margin-right: 30px;
- 
 }
 
-.banner_img  img
-{
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.banner_img {
+    display: flex;
+    margin-right: 30px;
+
+}
+
+.banner_img img {
     background: rgb(198, 228, 214);
-     
+
 }
 
 /* banner style end */
+
+/* pillar section */
+.pillars_container {
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.pillars_container_h3 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.pillar {
+    width: 302px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+    margin-top: 32px;
+}
+
+.pillar_h3 {
+    background: rgb(255, 255, 255);
+    margin-top: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+.pillar_p {
+    background: rgb(255, 255, 255);
+    margin-top: 12px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+
+.pillar_tarms {
+    display: flex;
+    justify-content: space-between;
+}
