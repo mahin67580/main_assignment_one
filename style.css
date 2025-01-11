@@ -43,8 +43,8 @@ nav {
     line-height: 22px;
     letter-spacing: 0%;
 }
-.navhbtn:hover
-{
+
+.navhbtn:hover {
     background-color: rgba(0, 128, 0, 0.432);
     color: black;
 }
@@ -278,7 +278,8 @@ img {
     border: none;
     margin-top: 24px;
 }
-.goal_one_btn:hover{
+
+.goal_one_btn:hover {
     background-color: black;
 }
 
@@ -315,12 +316,12 @@ img {
 #mid_btn {
     background: rgb(9, 161, 92);
 }
-#mid_btn:hover
-{
+
+#mid_btn:hover {
     background-color: black;
 }
-#last_btn:hover
-{
+
+#last_btn:hover {
     background-color: black;
 }
 
@@ -445,8 +446,8 @@ img {
     background: rgb(0, 106, 80);
     border: none;
 }
-.pr_btn:hover
-{
+
+.pr_btn:hover {
 
     background-color: black;
 }
@@ -541,8 +542,7 @@ img {
 input[type="text"] {
     width: 1032px;
     height: 64px;
-    box-sizing: border-box;
-    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+
     background: rgb(255, 255, 255);
     text-align: center;
     color: rgba(14, 14, 14, 0.3);
@@ -553,6 +553,7 @@ input[type="text"] {
     border: none;
 
 
+
 }
 
 .inpdiv {
@@ -560,7 +561,7 @@ input[type="text"] {
     height: 64px;
     margin: 0 auto;
     margin-top: 32px;
-
+    background-color: white;
 
 }
 
@@ -580,8 +581,8 @@ input[type="text"] {
     border: none;
 
 }
-.donatebtn:hover
-{
+
+.donatebtn:hover {
     background-color: black;
 }
 
@@ -652,27 +653,34 @@ input[type="submit"] {
     border: none;
 }
 
-input[type="submit"]:hover
-{
+input[type="submit"]:hover {
 
-  background-color: rgb(0, 0, 0);  
+    background-color: rgb(0, 0, 0);
 }
+
 input[type="text"] {
     border-radius: 8px 0px 0px 8px;
-
     background: rgb(255, 255, 255);
+
 }
 
 #zx {
     width: 600px;
     height: 55px;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: start;
+    padding-left: 40px;
 }
 
 footer {
     width: auto;
     height: 226px;
     background: rgb(255, 255, 255);
-    
+
     margin-top: 80px;
     display: flex;
     flex-direction: column;
@@ -689,15 +697,14 @@ footer {
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
-    margin-top:  10px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
-.footimgcon
-{
+
+.footimgcon {
 
     display: flex;
     gap: 20px;
     background-color: white;
     margin-top: 30px;
 }
- 
