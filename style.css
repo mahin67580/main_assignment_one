@@ -376,7 +376,7 @@ img {
 }
 
 .box_onetxt {
-    
+
     margin-right: 20px;
 }
 
@@ -434,15 +434,80 @@ img {
     margin-left: 20px;
     background-image: url("assets/satelite.png");
 }
- #maxxx
- {
+
+#maxxx {
     flex-direction: row-reverse;
- }
- #sideplz
- {
+}
+
+#sideplz {
     margin-left: 40px;
- }
- #sidepl2
- {
+}
+
+#sidepl2 {
     margin-right: 35px;
- }
+}
+
+.donate_tdy {
+    width: 1280px;
+    height: 120px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+
+
+}
+
+.donate_tdy_h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.donate_tdy_p {
+    margin-top: 25px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.tuktak {
+    width: 1071px;
+    height: 128px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.tukbtn {
+    width: 240px;
+    height: 128px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    background: rgb(255, 255, 255);
+
+}
+.tukbtn:hover
+{
+    background: rgb(198, 228, 214);
+}
+
+#ch
+{
+    background: rgb(198, 228, 214);
+}
