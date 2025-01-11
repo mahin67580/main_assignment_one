@@ -353,6 +353,7 @@ img {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    text-align: justify;
 }
 
 .challengep2 {
@@ -431,7 +432,6 @@ img {
     font-weight: 400;
     line-height: 24px;
     height: 90px;
-
 }
 
 .pr_btn {
@@ -445,6 +445,8 @@ img {
     line-height: 22px;
     background: rgb(0, 106, 80);
     border: none;
+    margin-top: 10px;
+     
 }
 
 .pr_btn:hover {
@@ -551,9 +553,10 @@ input[type="text"] {
     font-weight: 400;
     line-height: 24px;
     border: none;
-
-
-
+}
+#cat
+{
+    border-radius: 0px;
 }
 
 .inpdiv {
